@@ -1,7 +1,7 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background-color: #355834;
     padding: 0 40px;
     text-align: center;
 }
@@ -10,19 +10,22 @@ nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    background: #1F2232;
+}
+.pawprint {
+    filter: hue-rotate(90deg)
 }
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 
 nav ul li {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 0px;
 }
 
 nav ul li a {
@@ -30,12 +33,16 @@ nav ul li a {
     padding: 20px;
     color: #EAE8FF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 80em;
     letter-spacing: -2px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 strong {
@@ -47,4 +54,7 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color fill: ;
 }
